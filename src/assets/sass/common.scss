@@ -1,0 +1,23 @@
+.application {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.footer {
+    margin: 10px;
+    .footer_all{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .footer_submit {
+        min-width: 45%;
+        max-width: 100%;
+        flex: 1;
+        height: 40px;
+        margin: 5px;
+        font-size: 18px;
+        border-radius: 10px;
+      }  
+    }
+  }

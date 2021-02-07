@@ -1,0 +1,23 @@
+.header {
+  background: #2385ff;
+  color: white;
+  .header_title {
+    height: 40px;
+    font-size: 20px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+    line-height: 20px;
+    .header_title_left {
+      height: 20px;
+      }
+     
+    .header_title_center {
+      height: 20px;
+      margin-left: 20px;
+     
+    }
+  }
+}

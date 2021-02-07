@@ -1,0 +1,31 @@
+
+  .select {
+    
+    .select_lists{
+      
+      .select_lists_content{
+        padding: 10px;
+        background: white;
+        margin-top: 10px;
+        .select_lists_title{
+          font-weight: bolder;
+          font-size: 16px;
+          margin-bottom: 5px;
+         
+        }
+        .select_lists_body>div{
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          .select_lists_body_title{
+            width: 25%;
+          }
+          .select_lists_body_content{
+            width: 73%;
+          }
+        }
+      }
+    }
+    
+  }
+

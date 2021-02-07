@@ -1,0 +1,64 @@
+
+  .application_basicinformation_content{
+    padding: 2px 0;
+  }
+  .application_message {
+    flex: 1;
+    overflow-y: auto;
+    ::v-deep .van-cell__title,
+    ::v-deep .van-cell__value {
+      font-size: 18px !important;
+    }
+    .radios {
+      margin-top: 5px;
+    }
+    .application_process{
+      margin: 0 16px;
+      height: 40px;
+      line-height: 40px;
+      color: #007aff;
+      font-size: 18px;
+    }
+    .application_opinion{
+      margin: 0 16px;
+      display: flex;
+      height: 40px;
+      line-height: 40px;
+      justify-content: space-between;
+      .application_opinion_title{
+        font-size: 18px;
+        font-weight: bolder;
+      }
+      .application_opinion_content{
+        color: #007aff;
+      }
+    }
+    .application_success{
+      margin: 0 16px;
+      >div{
+        margin-top: 5px;
+      }
+      .application_success_name{
+        font-weight: bold;
+ 
+      }
+      .application_success_content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+   
+   
+  }
+
+.dialog {
+  padding: 10px;
+}
+.van-dialog{
+  width: 90vw;
+}
+.occupiedtime{
+  text-align: center;
+  margin: 5px 0;
+}
